@@ -1,0 +1,16 @@
+.textarea {
+	background: transparent;
+	border: 2px solid $primary;
+	border-radius: 2px;
+	color: $primary;
+	opacity: .6;
+	padding: $base-gutter * 2;
+	width: 100%;
+	&:hover {
+		opacity: .8;
+	}
+	&:focus,
+	&:active {
+		opacity: 1;
+	}
+}

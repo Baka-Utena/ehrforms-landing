@@ -1,0 +1,26 @@
+.btn {
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	font-size: 1.1em;
+
+	&_contour {
+		border: 2px solid $primary;
+		color: $primary;
+		background: transparent;
+		padding: $base-gutter /2 $base-gutter * 2.5;
+	}
+
+	&_white {
+		background: $white;
+		box-shadow: 4px 4px 15px 0 rgba(#55127b, .5);
+		color: $primary;
+		padding: $base-gutter * 1.5 $base-gutter * 3;
+	}
+	&_primary {
+		background: $primary;
+		color: $white;
+		font-size: 18px;
+		padding: $base-gutter * 2 $base-gutter * 3.5;
+	}
+}

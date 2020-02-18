@@ -1,0 +1,50 @@
+.textfield {
+	position: relative;
+	&.is-required {
+		&:before {
+			color: $primary;
+			content: '*';
+			display: block;
+			opacity: .8;
+			position: absolute;
+			left: 100%;
+			padding-left: $base-gutter;
+		}
+	}
+	&__input {
+		align-items: center;
+		background: transparent;
+		border: 2px solid $primary;
+		border-radius: 2px;
+		color: $primary;
+		display: flex;
+		font-size: 16px;
+		font-weight: 600;
+		height: $base-gutter * 6;
+		opacity: .6;
+		padding: 0 $base-gutter * 2;
+		position: relative;
+		width: 100%;
+		&:hover {
+			opacity: .8;
+		}
+		&:focus,
+		&:active {
+			opacity: 1;
+			outline: none;
+		}
+	}
+	&__error {
+		color: #dce0f6;
+		font-size: 14px;
+		padding: $base-gutter/2 0;
+		position: absolute;
+		top: 100%;
+	}
+}
+
+::placeholder {
+	color: $primary;
+	font-size: 16px;
+	font-weight: 600;
+}
