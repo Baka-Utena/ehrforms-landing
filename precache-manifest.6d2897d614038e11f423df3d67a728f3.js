@@ -1,0 +1,50 @@
+self.__precacheManifest = (self.__precacheManifest || []).concat([
+  {
+    "revision": "db4ebdfb628a3d7cec818409d4286c71",
+    "url": "/ehrforms-landing/index.html"
+  },
+  {
+    "revision": "e90c0143778faa7c5262",
+    "url": "/ehrforms-landing/static/css/main.dff482e7.chunk.css"
+  },
+  {
+    "revision": "59e94bc1d7f95aaf3c4e",
+    "url": "/ehrforms-landing/static/js/2.8a8aad28.chunk.js"
+  },
+  {
+    "revision": "bfc08a62983de46a4daec9f8c3c657d8",
+    "url": "/ehrforms-landing/static/js/2.8a8aad28.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "e90c0143778faa7c5262",
+    "url": "/ehrforms-landing/static/js/main.57dec363.chunk.js"
+  },
+  {
+    "revision": "20352c71c8b580acfb72",
+    "url": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js"
+  },
+  {
+    "revision": "d89719ce828895c40ed6bb76524925cb",
+    "url": "/ehrforms-landing/static/media/arrows.d89719ce.png"
+  },
+  {
+    "revision": "aa6ad31c9a469649e0e370e643b97213",
+    "url": "/ehrforms-landing/static/media/example.aa6ad31c.png"
+  },
+  {
+    "revision": "6972b8d188ce62897570104810d86d80",
+    "url": "/ehrforms-landing/static/media/image_bottom.6972b8d1.png"
+  },
+  {
+    "revision": "086a8f2af622bc527b3c060933f37567",
+    "url": "/ehrforms-landing/static/media/image_top.086a8f2a.png"
+  },
+  {
+    "revision": "11ebcfa25537d5812b9f32d9e224a469",
+    "url": "/ehrforms-landing/static/media/infogr.11ebcfa2.png"
+  },
+  {
+    "revision": "b92005098b40f225fd0cf4eec0653edf",
+    "url": "/ehrforms-landing/static/media/shadow.b9200509.png"
+  }
+]);
