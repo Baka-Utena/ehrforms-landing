@@ -25,7 +25,6 @@ class App extends React.Component {
     scrollFirstScreenDetection() {
         const FIRSTSCREENHEIGHT = 760;
         this.setState({scrollFirstScreen: (window.pageYOffset > FIRSTSCREENHEIGHT)});
-        console.log('test');
     }
 
     showModal = e => {
@@ -49,6 +48,7 @@ class App extends React.Component {
                                          }}/>
                     </div>
                 </div>
+                <span id="product"/>
                 <div className="section section2">
                     <div className="container section2__container">
                         <h2 className="section__header">We solve the following problems</h2>
@@ -106,6 +106,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
+                <span id="how"/>
                 <div className="section section3">
                     <div className="container">
                         <h2 className="section__header">How it works</h2>
@@ -137,6 +138,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
+                <span id="features"/>
                 <div className="section section4">
                     <div className="container">
                         <h2 className="section__header">Key features</h2>
@@ -197,6 +199,7 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
+                <span id="contact" name="contact"/>
                 <div className="footer">
                     <div className="container footer__container">
                         <div className="copyright">

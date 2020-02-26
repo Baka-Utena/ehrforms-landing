@@ -18,7 +18,7 @@
 	width: 100%;
 	z-index: 32;
 	@media all and (max-width: 800px) {
-		height: auto;
+		min-height: $base-gutter * 20;
 		padding: $base-gutter * 2;
 	}
 
@@ -27,6 +27,9 @@
 		display: flex;
 		justify-content: space-between;
 		height: 100%;
+		margin: auto;
+		max-width: $width-comp;
+		padding: 0 $base-gutter * 6;
 	}
 
 	.logo {
@@ -40,8 +43,8 @@
 		cursor: pointer;
 		display: flex;
 		@media all and (max-width: 800px) {
-			flex-direction: column;
 			align-items: flex-end;
+			flex-direction: column;
 		}
 		&:not(:last-child) {
 			margin-right: $base-gutter * 4;
@@ -49,8 +52,10 @@
 
 		&__item {
 			padding: 6px $base-gutter * 1.5;
+			text-align: center;
 			@media all and (max-width: 800px) {
 				padding: 6px 0;
+				text-align: right;
 			}
 
 			&:not(:last-child) {
@@ -60,8 +65,15 @@
 				}
 			}
 
-			&.is-active {
+			&.active {
 				border-bottom: 2px solid $primary;
+			}
+
+			a,
+			a:hover,
+			a:focus {
+				color: #fff;
+				text-decoration: none;
 			}
 		}
 	}
@@ -115,7 +127,7 @@
 		flex-direction: column;
 		height: 100%;
 		justify-content: space-between;
-		padding: $base-gutter * 12 0;
+		padding: $base-gutter * 12 $base-gutter * 6;
 		position: relative;
 		z-index: 1;
 
@@ -465,4 +477,3 @@
 	height: 32px;
 	width: 124px;
 }
-

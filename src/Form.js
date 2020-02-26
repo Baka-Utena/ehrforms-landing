@@ -42,11 +42,17 @@ class Form extends Component {
                         </div>
                     </div>
                     <div className="form__row">
-                        <textarea className="textarea"/>
+                        <div className="form__col">
+                            <textarea className="textarea"/>
+                        </div>
                     </div>
                     <div className="form__row">
-                        <button className="btn btn_primary">Submit</button>
-                        <div>* - Fields are required</div>
+                        <div className="form__col">
+                            <button className="btn btn_primary">Submit</button>
+                        </div>
+                        <div className="form__col">
+                            * - Fields are required
+                        </div>
                     </div>
                 </form>
             </>
@@ -69,22 +75,22 @@ class Form extends Component {
         }
 
         this.setState({errors, fields});
-/*
-        switch (field) {
-            case "name":
-                if (!fields["name"]) {
-                    errors["name"] = "Cannot be empty";
-                    this.setState({errors: errors});
-                }
-                if (typeof fields["name"] !== "undefined") {
-                    if (!fields["name"].match(/^[a-zA-Z]+$/)) {
-                        errors["name"] = "Only letters";
-                    }
-                }
-                break;
-            default:
-                break;
-        }*/
+        /*
+                switch (field) {
+                    case "name":
+                        if (!fields["name"]) {
+                            errors["name"] = "Cannot be empty";
+                            this.setState({errors: errors});
+                        }
+                        if (typeof fields["name"] !== "undefined") {
+                            if (!fields["name"].match(/^[a-zA-Z]+$/)) {
+                                errors["name"] = "Only letters";
+                            }
+                        }
+                        break;
+                    default:
+                        break;
+                }*/
 
     }
 
