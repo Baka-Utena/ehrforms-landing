@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ehrforms-landing/static/css/main.d5933f3a.chunk.css",
-    "main.js": "/ehrforms-landing/static/js/main.2da4e175.chunk.js",
-    "main.js.map": "/ehrforms-landing/static/js/main.2da4e175.chunk.js.map",
-    "runtime-main.js": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js",
-    "runtime-main.js.map": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js.map",
-    "static/js/2.81a70208.chunk.js": "/ehrforms-landing/static/js/2.81a70208.chunk.js",
-    "static/js/2.81a70208.chunk.js.map": "/ehrforms-landing/static/js/2.81a70208.chunk.js.map",
-    "index.html": "/ehrforms-landing/index.html",
-    "precache-manifest.d434b3799b1ff34a9c145cb23ae36f29.js": "/ehrforms-landing/precache-manifest.d434b3799b1ff34a9c145cb23ae36f29.js",
-    "service-worker.js": "/ehrforms-landing/service-worker.js",
-    "static/css/main.d5933f3a.chunk.css.map": "/ehrforms-landing/static/css/main.d5933f3a.chunk.css.map",
-    "static/js/2.81a70208.chunk.js.LICENSE.txt": "/ehrforms-landing/static/js/2.81a70208.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/ehrforms-landing/static/media/shadow.b9200509.png"
+    "main.css": "/static/css/main.d7e8a30c.chunk.css",
+    "main.js": "/static/js/main.516ce257.chunk.js",
+    "main.js.map": "/static/js/main.516ce257.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0423af17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0423af17.js.map",
+    "static/js/2.3bc70f1a.chunk.js": "/static/js/2.3bc70f1a.chunk.js",
+    "static/js/2.3bc70f1a.chunk.js.map": "/static/js/2.3bc70f1a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a026ac22d35003cb5195c17c1ad09d90.js": "/precache-manifest.a026ac22d35003cb5195c17c1ad09d90.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d7e8a30c.chunk.css.map": "/static/css/main.d7e8a30c.chunk.css.map",
+    "static/js/2.3bc70f1a.chunk.js.LICENSE.txt": "/static/js/2.3bc70f1a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/shadow.b9200509.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d20c7e2e.js",
-    "static/js/2.81a70208.chunk.js",
-    "static/css/main.d5933f3a.chunk.css",
-    "static/js/main.2da4e175.chunk.js"
+    "static/js/runtime-main.0423af17.js",
+    "static/js/2.3bc70f1a.chunk.js",
+    "static/css/main.d7e8a30c.chunk.css",
+    "static/js/main.516ce257.chunk.js"
   ]
 }
