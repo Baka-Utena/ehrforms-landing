@@ -16,6 +16,11 @@ class Modal extends Component {
                 }}>
                     <div className="modal__background" onClick={this.onClose}/>
                     <div className="modal__wrapper">
+                        <div className="modal__close" onClick={this.onClose}>
+                            <i className="material-icons md-36">
+                                close
+                            </i>
+                        </div>
                         <Form classes="light"/>
                     </div>
                 </div>

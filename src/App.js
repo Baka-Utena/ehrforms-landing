@@ -3,7 +3,6 @@ import './App.scss';
 import Form from "./Form";
 import Modal from "./Modal";
 import Header from "./Header";
-import ButtonShowModal from "./ButtonShowModal";
 
 class App extends React.Component {
     constructor(props) {
@@ -37,15 +36,19 @@ class App extends React.Component {
         return (
             <>
                 <Header
-                    button={ this.state.scrollFirstScreen ? <ButtonShowModal onClick={e => { this.showModal() }}/> : null }>
+                    closeModal={e => { this.showModal() }}
+                >
                 </Header>
                 <div className="section section1">
                     <div className="container section1__container">
                         <h1 className="section1__header">Solution for building openEHR based applications fast</h1>
                         <div className="section1__infogr"/>
-                        <ButtonShowModal onClick={e => {
-                                             this.showModal();
-                                         }}/>
+                        <button className="btn btn_white"
+                                onClick={e => {
+                                    this.showModal();
+                                }}>
+                            Request a demo
+                        </button>
                     </div>
                 </div>
                 <span id="product"/>

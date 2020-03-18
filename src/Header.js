@@ -1,11 +1,14 @@
 import React, {Component} from "react";
-import MenuItem from "./scss/MenuItem";
+import MenuItem from "./MenuItem";
+import classNames from "classnames";
+import ButtonShowModal from "./ButtonShowModal";
 
 class Header extends Component {
     constructor(props) {
         super(props);
         this.handleResize = this.handleResize.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+        this.menuToggle = this.menuToggle.bind(this);
 
         this.sections = {
                 product: 'Product',
@@ -27,10 +30,10 @@ class Header extends Component {
                 features: '',
                 contact: ''
             },
-            windowWidth: ''
+            windowWidth: '',
+            menuVisible: false
         };
     }
-
 
     handleResize() {
         this.setState({windowWidth: window.innerWidth});
@@ -71,13 +74,23 @@ class Header extends Component {
 
             const newMenuState = {
                 top: '',
-                Section1: '',
-                Section2: '',
-                Section3: ''
+                product: '',
+                how: '',
+                features: '',
+                contact: ''
             };
             newMenuState[curSection] = "active";
             this.setState({ activeMenuItem: newMenuState });
         }
+    }
+
+    handleClickOnLogo(e) {
+        e.preventDefault();
+        window.scrollTo({top: 0, left: 0, behavior:"smooth", block: "start"});
+    }
+
+    menuToggle() {
+        this.setState({menuVisible: !this.state.menuVisible});
     }
 
     componentDidMount() {
@@ -98,11 +111,16 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="header__container">
-                    <div className="logo"/>
-                    <ul className="menu">
+                    <div className="logo" onClick={ this.state.activeMenuItem.top !== 'active' ? this.handleClickOnLogo : null }/>
+                    <ul className={classNames("menu", {"is-visible": this.state.menuVisible})}>
                         {menuItems}
                     </ul>
-                    {this.props.button}
+                    <ButtonShowModal
+                        onClick={this.props.closeModal}
+                        visible={this.state.activeMenuItem.top !== 'active'}/>
+                    <i className="material-icons header__hamb" onClick={this.menuToggle}>
+                        menu
+                    </i>
                 </div>
             </div>
         )
