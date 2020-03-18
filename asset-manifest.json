@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ehrforms-landing/static/css/main.2b0a3edd.chunk.css",
+    "main.css": "/ehrforms-landing/static/css/main.d522f7ab.chunk.css",
     "main.js": "/ehrforms-landing/static/js/main.e9914883.chunk.js",
     "main.js.map": "/ehrforms-landing/static/js/main.e9914883.chunk.js.map",
     "runtime-main.js": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js",
@@ -8,16 +8,16 @@
     "static/js/2.81a70208.chunk.js": "/ehrforms-landing/static/js/2.81a70208.chunk.js",
     "static/js/2.81a70208.chunk.js.map": "/ehrforms-landing/static/js/2.81a70208.chunk.js.map",
     "index.html": "/ehrforms-landing/index.html",
-    "precache-manifest.c1b38a0b301d4e6f02f164c49f308685.js": "/ehrforms-landing/precache-manifest.c1b38a0b301d4e6f02f164c49f308685.js",
+    "precache-manifest.633313640f3c4f4fc5724f0d8f81abce.js": "/ehrforms-landing/precache-manifest.633313640f3c4f4fc5724f0d8f81abce.js",
     "service-worker.js": "/ehrforms-landing/service-worker.js",
-    "static/css/main.2b0a3edd.chunk.css.map": "/ehrforms-landing/static/css/main.2b0a3edd.chunk.css.map",
+    "static/css/main.d522f7ab.chunk.css.map": "/ehrforms-landing/static/css/main.d522f7ab.chunk.css.map",
     "static/js/2.81a70208.chunk.js.LICENSE.txt": "/ehrforms-landing/static/js/2.81a70208.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ehrforms-landing/static/media/shadow.b9200509.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d20c7e2e.js",
     "static/js/2.81a70208.chunk.js",
-    "static/css/main.2b0a3edd.chunk.css",
+    "static/css/main.d522f7ab.chunk.css",
     "static/js/main.e9914883.chunk.js"
   ]
 }
