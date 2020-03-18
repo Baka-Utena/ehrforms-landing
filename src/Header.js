@@ -111,7 +111,9 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="header__container">
-                    <div className="logo" onClick={ this.state.activeMenuItem.top !== 'active' ? this.handleClickOnLogo : null }/>
+                    <div className="logo" onClick={ this.state.activeMenuItem.top !== 'active' ? this.handleClickOnLogo : null }>
+                        forms
+                    </div>
                     <ul className={classNames("menu", {"is-visible": this.state.menuVisible})}>
                         {menuItems}
                     </ul>

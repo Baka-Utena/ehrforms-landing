@@ -3,66 +3,29 @@ import TextField from "./Textfield";
 import classNames from "classnames";
 
 class Form extends Component {
-    render() {
-        return (
-            <>
-                <form name="contactform" className={classNames("form", this.props.classes)}
-                      onSubmit={this.contactSubmit.bind(this)}>
-                    <h3 className="form__header">Have a question about EHR Forms?</h3>
-                    <div className="form__caption">
-                        Ask it here and we will get back to you as soon as we can
-                    </div>
-                    <div className="form__row">
-                        <div className="form__col form__col-2">
-                            <TextField name="name"
-                                       placeholder="Name"
-                                       required
-                                       onChange={this.handleChange.bind(this, "name")}
-                                       value={this.state.fields["name"]}
-                                       error={this.state.errors["name"]}
-                            />
-                        </div>
-                    </div>
-                    <div className="form__row">
-                        <div className="form__col form__col-2 is-nessesary">
-                            <TextField name="email"
-                                       placeholder="E-mail"
-                                       required
-                                       onChange={this.handleChange.bind(this, "email")}
-                                       error={this.state.errors["email"]}
-                            />
-                        </div>
-                        <div className="form__col form__col-2 is-nessesary">
-                            <TextField name="phone"
-                                       placeholder="Phone"
-                                       required
-                                       onChange={this.handleChange.bind(this, "phone")}
-                                       error={this.state.errors["phone"]}
-                            />
-                        </div>
-                    </div>
-                    <div className="form__row">
-                        <div className="form__col">
-                            <textarea className="textarea"/>
-                        </div>
-                    </div>
-                    <div className="form__row">
-                        <div className="form__col">
-                            <button className="btn btn_primary">Submit</button>
-                        </div>
-                        <div className="form__col">
-                            * - Fields are required
-                        </div>
-                    </div>
-                </form>
-            </>
-        )
+    constructor(props) {
+        super(props);
+        this.state = {
+            fields: {
+                name: '',
+                email: '',
+                phone: ''
+            },
+            errors: {}
+        }
     }
 
     handleChange(field, e) {
+        console.log('11');
         let fields = this.state.fields;
         fields[field] = e.target.value;
         this.setState({fields});
+    }
+
+    handleClickOnInput(field, e) {
+        let initialPlaceholder = e.target.placeholder;
+        console.log(initialPlaceholder);
+        e.target.placeholder = '';
     }
 
     fieldValidation(fieldName, e) {
@@ -139,23 +102,66 @@ class Form extends Component {
         e.preventDefault();
 
         if (this.handleValidation()) {
-            alert("Form submitted");
+            console.log("Form submitted");
         } else {
-            alert("Form has errors.")
+            console.log("Form has errors.")
         }
 
     }
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            fields: {
-                name: '',
-                email: '',
-                phone: ''
-            },
-            errors: {}
-        }
+    render() {
+        return (
+            <>
+                <form name="contactform" className={classNames("form", this.props.classes)}
+                      onSubmit={this.contactSubmit.bind(this)}>
+                    <h3 className="form__header">Have a question about EHR Forms?</h3>
+                    <div className="form__caption">
+                        Ask it here and we will get back to you as soon as we can
+                    </div>
+                    <div className="form__row">
+                        <div className="form__col form__col-2">
+                            <TextField name="name"
+                                       placeholder="Name"
+                                       required
+                                       onChange={this.handleChange.bind(this, "name")}
+                                       onClick={this.handleClickOnInput.bind(this, "name")}
+                                       value={this.state.fields["name"]}
+                                       error={this.state.errors["name"]}
+                            />
+                        </div>
+                    </div>
+                    <div className="form__row">
+                        <div className="form__col form__col-2 is-nessesary">
+                            <TextField name="email"
+                                       placeholder="E-mail"
+                                       required
+                                       onChange={this.handleChange.bind(this, "email")}
+                                       error={this.state.errors["email"]}
+                            />
+                        </div>
+                        <div className="form__col form__col-2">
+                            <TextField name="phone"
+                                       placeholder="Phone"
+                                       onChange={this.handleChange.bind(this, "phone")}
+                                       /*error={this.state.errors["phone"]}*/
+                            />
+                        </div>
+                    </div>
+                    <div className="form__row">
+                        <div className="form__col">
+                            <textarea className="textarea"
+                                      placeholder="Message"/>
+                        </div>
+                    </div>
+                    <div className="form__row">
+                        <div className="form__col form__col_flex">
+                            <button className="btn btn_primary">Submit</button>
+                            <div className="form__legend">* - Fields are required</div>
+                        </div>
+                    </div>
+                </form>
+            </>
+        )
     }
 }
 

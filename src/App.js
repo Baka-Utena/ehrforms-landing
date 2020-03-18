@@ -99,7 +99,7 @@ class App extends React.Component {
                                 <div className="blocks__bottom">
                                     Forms built for multiple openEHR compositions from different templates
                                     <hr/>
-                                    Various purposes visual componenta libraries from third party developers
+                                    Various purposes visual components libraries from third party developers
                                 </div>
                             </div>
                         </div>
