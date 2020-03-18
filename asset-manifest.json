@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ehrforms-landing/static/css/main.8108747c.chunk.css",
-    "main.js": "/ehrforms-landing/static/js/main.6099c71d.chunk.js",
-    "main.js.map": "/ehrforms-landing/static/js/main.6099c71d.chunk.js.map",
+    "main.css": "/ehrforms-landing/static/css/main.2b0a3edd.chunk.css",
+    "main.js": "/ehrforms-landing/static/js/main.e9914883.chunk.js",
+    "main.js.map": "/ehrforms-landing/static/js/main.e9914883.chunk.js.map",
     "runtime-main.js": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js",
     "runtime-main.js.map": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js.map",
-    "static/js/2.3bc70f1a.chunk.js": "/ehrforms-landing/static/js/2.3bc70f1a.chunk.js",
-    "static/js/2.3bc70f1a.chunk.js.map": "/ehrforms-landing/static/js/2.3bc70f1a.chunk.js.map",
+    "static/js/2.81a70208.chunk.js": "/ehrforms-landing/static/js/2.81a70208.chunk.js",
+    "static/js/2.81a70208.chunk.js.map": "/ehrforms-landing/static/js/2.81a70208.chunk.js.map",
     "index.html": "/ehrforms-landing/index.html",
-    "precache-manifest.2b28c584f37134a97031aa3b32d16ea6.js": "/ehrforms-landing/precache-manifest.2b28c584f37134a97031aa3b32d16ea6.js",
+    "precache-manifest.c1b38a0b301d4e6f02f164c49f308685.js": "/ehrforms-landing/precache-manifest.c1b38a0b301d4e6f02f164c49f308685.js",
     "service-worker.js": "/ehrforms-landing/service-worker.js",
-    "static/css/main.8108747c.chunk.css.map": "/ehrforms-landing/static/css/main.8108747c.chunk.css.map",
-    "static/js/2.3bc70f1a.chunk.js.LICENSE.txt": "/ehrforms-landing/static/js/2.3bc70f1a.chunk.js.LICENSE.txt",
+    "static/css/main.2b0a3edd.chunk.css.map": "/ehrforms-landing/static/css/main.2b0a3edd.chunk.css.map",
+    "static/js/2.81a70208.chunk.js.LICENSE.txt": "/ehrforms-landing/static/js/2.81a70208.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ehrforms-landing/static/media/shadow.b9200509.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d20c7e2e.js",
-    "static/js/2.3bc70f1a.chunk.js",
-    "static/css/main.8108747c.chunk.css",
-    "static/js/main.6099c71d.chunk.js"
+    "static/js/2.81a70208.chunk.js",
+    "static/css/main.2b0a3edd.chunk.css",
+    "static/js/main.e9914883.chunk.js"
   ]
 }
