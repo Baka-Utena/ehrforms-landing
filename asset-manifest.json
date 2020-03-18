@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ehrforms-landing/static/css/main.0a263fd2.chunk.css",
-    "main.js": "/ehrforms-landing/static/js/main.7cef7c94.chunk.js",
-    "main.js.map": "/ehrforms-landing/static/js/main.7cef7c94.chunk.js.map",
+    "main.css": "/ehrforms-landing/static/css/main.8108747c.chunk.css",
+    "main.js": "/ehrforms-landing/static/js/main.6099c71d.chunk.js",
+    "main.js.map": "/ehrforms-landing/static/js/main.6099c71d.chunk.js.map",
     "runtime-main.js": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js",
     "runtime-main.js.map": "/ehrforms-landing/static/js/runtime-main.d20c7e2e.js.map",
     "static/js/2.3bc70f1a.chunk.js": "/ehrforms-landing/static/js/2.3bc70f1a.chunk.js",
     "static/js/2.3bc70f1a.chunk.js.map": "/ehrforms-landing/static/js/2.3bc70f1a.chunk.js.map",
     "index.html": "/ehrforms-landing/index.html",
-    "precache-manifest.2390910d713d2c7e245f6f8126bf6229.js": "/ehrforms-landing/precache-manifest.2390910d713d2c7e245f6f8126bf6229.js",
+    "precache-manifest.2b28c584f37134a97031aa3b32d16ea6.js": "/ehrforms-landing/precache-manifest.2b28c584f37134a97031aa3b32d16ea6.js",
     "service-worker.js": "/ehrforms-landing/service-worker.js",
-    "static/css/main.0a263fd2.chunk.css.map": "/ehrforms-landing/static/css/main.0a263fd2.chunk.css.map",
+    "static/css/main.8108747c.chunk.css.map": "/ehrforms-landing/static/css/main.8108747c.chunk.css.map",
     "static/js/2.3bc70f1a.chunk.js.LICENSE.txt": "/ehrforms-landing/static/js/2.3bc70f1a.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ehrforms-landing/static/media/shadow.b9200509.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d20c7e2e.js",
     "static/js/2.3bc70f1a.chunk.js",
-    "static/css/main.0a263fd2.chunk.css",
-    "static/js/main.7cef7c94.chunk.js"
+    "static/css/main.8108747c.chunk.css",
+    "static/js/main.6099c71d.chunk.js"
   ]
 }
