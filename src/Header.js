@@ -108,6 +108,7 @@ class Header extends Component {
         for (var key in this.sections) {
             menuItems.push(<MenuItem itemName={key} itemTitle={this.sections[key]} itemPosition={this.state.positions[key]} active={this.state.activeMenuItem[key]}/>);
         }
+        console.log(this.state.activeMenuItem.top);
         return (
             <div className="header">
                 <div className="header__container">
@@ -119,7 +120,7 @@ class Header extends Component {
                     </ul>
                     <ButtonShowModal
                         onClick={this.props.closeModal}
-                        visible={this.state.activeMenuItem.top !== 'active'}/>
+                        visible={this.state.activeMenuItem.top !== null && this.state.activeMenuItem.top !== 'active'}/>
                     <i className="material-icons header__hamb" onClick={this.menuToggle}>
                         menu
                     </i>

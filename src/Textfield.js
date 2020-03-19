@@ -19,7 +19,6 @@ class TextField extends Component {
     }
 
     handleBlurOnInput(e) {
-        console.log(this.props.placeholder)
         this.setState({placeholder: this.props.placeholder});
     }
     render() {

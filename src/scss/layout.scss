@@ -378,7 +378,7 @@
 	padding: $base-gutter * 12 0;
 
 	&__container {
-		align-items: flex-end;
+		align-items: stretch;
 		display: flex;
 		justify-content: space-between;
 		@media all and (max-width: 1000px) {
@@ -391,12 +391,44 @@
 	}
 
 	.copyright {
-		align-items: center;
 		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
 		font-size: 15px;
+		justify-content: space-between;
+		position: relative;
 
-		& > *:not(:last-child) {
-			margin-right: $base-gutter * 3;
+		&__picture {
+			background: url("../images/logo-bottom.png") no-repeat -32px top;
+			color: #29378c;
+			height: 320px;
+			width: 320px;
+			@media all and (max-width: 1000px) {
+				display: none;
+			}
+		}
+		&__text1 {
+			font-size: 36px;
+			font-weight: 300;
+			left: $base-gutter * 26;
+			position: absolute;
+			top: $base-gutter * 2;
+		}
+		&__text2 {
+			font-size: 28px;
+			font-weight: 300;
+			left: $base-gutter * 26;
+			line-height: 1.2;
+			position: absolute;
+			top: $base-gutter * 25.5;
+			width: $base-gutter * 12;
+		}
+		&__caption {
+			align-items: center;
+			display: flex;
+			& > *:not(:last-child) {
+				margin-right: $base-gutter * 3;
+			}
 		}
 	}
 }

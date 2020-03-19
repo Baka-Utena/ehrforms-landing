@@ -24,7 +24,6 @@ class Form extends Component {
 
     handleClickOnInput(field, e) {
         let initialPlaceholder = e.target.placeholder;
-        console.log(initialPlaceholder);
         e.target.placeholder = '';
     }
 
@@ -87,11 +86,6 @@ class Form extends Component {
                 formIsValid = false;
                 errors["email"] = "Email is not valid";
             }
-        }
-
-        if (!fields["phone"]) {
-            formIsValid = false;
-            errors["phone"] = "Cannot be empty";
         }
 
         this.setState({errors: errors});

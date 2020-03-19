@@ -59,8 +59,7 @@ class App extends React.Component {
                         <div className="blocks">
                             <div className="blocks__item">
                                 <div className="blocks__top">
-                                    Developing forms based on openEHR is really time consuming because of template
-                                    complicity – validation rules, bulky composition structure
+                                    Developing forms based on openEHR is really time consuming because of the template complicity
                                 </div>
                                 <div className="blocks__bottom">
                                     WYSIWYG form builder is based on openEHR
@@ -70,16 +69,14 @@ class App extends React.Component {
                             </div>
                             <div className="blocks__item">
                                 <div className="blocks__top">
-                                    Forms reflecting openEHR template structure are overloaded and it takes too much
-                                    time to
-                                    fill out to the clinician composition structure
+                                    Forms reflecting openEHR template structure are overloaded and time consuming for clinicians
                                 </div>
                                 <div className="blocks__bottom">
-                                    Compact forms with easy to operate structure
+                                    Compact forms with an easy to operate structure
                                     <hr/>
-                                    Decision support when user interacts with user interface
+                                    Decision support when a user interacts with the user interface
                                     <hr/>
-                                    Various ways to speed up filling of same blocks or dependent fields
+                                    Various ways to speed up filling of the same blocks or dependent fields
                                 </div>
                             </div>
                             <div className="blocks__item">
@@ -88,13 +85,13 @@ class App extends React.Component {
                                 </div>
                                 <div className="blocks__bottom">
                                     Reusable widgets for archetypes available in different forms
+                                    <hr/>
+                                    Widget management allowing to work with different versions and widget copies
                                 </div>
                             </div>
                             <div className="blocks__item">
                                 <div className="blocks__top">
-                                    Forms have to be built by frontend developers, with knowledge of openEHR
-                                    specification
-                                    in all its sophistication
+                                    Forms have to be built by frontend developers, with deep knowledge of openEHR specification
                                 </div>
                                 <div className="blocks__bottom">
                                     Forms built for multiple openEHR compositions from different templates
@@ -161,14 +158,9 @@ class App extends React.Component {
                             </div>
                             <div className="columns__item">
                                 <ul className="list-markered">
-                                    <li className="list-markered__item">Rich component library with enough components to
-                                        build most
-                                        complicated forms
+                                    <li className="list-markered__item">Rich component library with enough components to build most complicated forms
                                     </li>
-                                    <li className="list-markered__item">Most complicated components can be used - smart
-                                        user
-                                        assistan, 3D
-                                        elements, charts
+                                    <li className="list-markered__item">Most complicated components can be used - smart user assistant, 3D elements, charts
                                     </li>
                                 </ul>
                             </div>
@@ -182,7 +174,7 @@ class App extends React.Component {
                                 <div className="columns-3__img columns-3__img_1"/>
                                 <div className="columns-3__header">10</div>
                                 <div className="columns-3__text">
-                                    applications developed and upgraded using EHR Forms
+                                    Applications developed and upgraded using EHR Forms
                                 </div>
                             </div>
                             <div className="columns-3__item">
@@ -196,7 +188,7 @@ class App extends React.Component {
                                 <div className="columns-3__img columns-3__img_3"/>
                                 <div className="columns-3__header">~30 000</div>
                                 <div className="columns-3__text">
-                                    clinicians and medical specialists are using these forms every day
+                                    Clinicians and medical specialists are using these forms every day
                                 </div>
                             </div>
                         </div>
@@ -206,8 +198,16 @@ class App extends React.Component {
                 <div className="footer">
                     <div className="container footer__container">
                         <div className="copyright">
-                            <span>Copyright 2020</span>
-                            <div className="logo-small"/>
+                            <div className="copyright__picture">
+                                <div className="copyright__text1">Solutions</div>
+                                <div className="copyright__text2">Electronic
+                                    Health
+                                    Record</div>
+                            </div>
+                            <div className="copyright__caption">
+                                <span>Copyright 2020</span>
+                                <div className="logo-small"/>
+                            </div>
                         </div>
                         <Form/>
                     </div>
