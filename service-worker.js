@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ehrforms-landing/precache-manifest.51ccf1b356cacfc5b6adc3a7732e1108.js"
+  "/ehrforms-landing/precache-manifest.9cd4144dd8011783275d44273d0df5cd.js"
 );
 
 self.addEventListener('message', (event) => {
