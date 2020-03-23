@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbd2be3151f6b5fe8d788d384d8d0767",
+    "revision": "965a139e48dedd44fae6ab09fd2e703d",
     "url": "/ehrforms-landing/index.html"
   },
   {
-    "revision": "f325286f423c4588af90",
-    "url": "/ehrforms-landing/static/css/main.63090fd4.chunk.css"
+    "revision": "38a815315d5bf446438e",
+    "url": "/ehrforms-landing/static/css/main.6c236fa8.chunk.css"
   },
   {
     "revision": "f447c80c82e75907d831",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ehrforms-landing/static/js/2.81a70208.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f325286f423c4588af90",
+    "revision": "38a815315d5bf446438e",
     "url": "/ehrforms-landing/static/js/main.4b7cb725.chunk.js"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ehrforms-landing/static/media/image_top.086a8f2a.png"
   },
   {
-    "revision": "11ebcfa25537d5812b9f32d9e224a469",
-    "url": "/ehrforms-landing/static/media/infogr.11ebcfa2.png"
+    "revision": "c8a88a9a16577002b2dd9b4f40eb1e56",
+    "url": "/ehrforms-landing/static/media/infogr_2.c8a88a9a.png"
   },
   {
     "revision": "debd8b1d061a051bf2f3dbb1ed3b9707",
