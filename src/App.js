@@ -59,24 +59,24 @@ class App extends React.Component {
                         <div className="blocks">
                             <div className="blocks__item">
                                 <div className="blocks__top">
-                                    Developing forms based on openEHR is really time consuming because of the template complicity
+                                    Developing health forms based on openEHR is often time consuming because of the template complexity
                                 </div>
                                 <div className="blocks__bottom">
                                     WYSIWYG form builder is based on openEHR
                                     <hr/>
-                                    Visual elements are loosely coupled with openEHR model via bindings
+                                    Visual elements are loosely coupled with the openEHR model via bindings
                                 </div>
                             </div>
                             <div className="blocks__item">
                                 <div className="blocks__top">
-                                    Forms reflecting openEHR template structure are overloaded and time consuming for clinicians
+                                    Forms reflecting the openEHR template structure can be overwhelming and time consuming for clinicians
                                 </div>
                                 <div className="blocks__bottom">
-                                    Compact forms with an easy to operate structure
+                                    Compact forms with an easy to use layout
                                     <hr/>
-                                    Decision support when a user interacts with the user interface
+                                    Decision support when interacting with the user interface
                                     <hr/>
-                                    Various ways to speed up filling of the same blocks or dependent fields
+                                    Multiple ways to quickly filling up of the same blocks or dependent fields
                                 </div>
                             </div>
                             <div className="blocks__item">
@@ -84,19 +84,19 @@ class App extends React.Component {
                                     Low reusability of UI logic for similar archetypes in different forms and products
                                 </div>
                                 <div className="blocks__bottom">
-                                    Reusable widgets for archetypes available in different forms
+                                    Multiple reusable widgets for archetypes, available in different forms
                                     <hr/>
-                                    Widget management allowing to work with different versions and widget copies
+                                    Widget management allows the user to work with different versions and widget copies
                                 </div>
                             </div>
                             <div className="blocks__item">
                                 <div className="blocks__top">
-                                    Forms have to be built by frontend developers, with deep knowledge of openEHR specification
+                                    Forms are normally built by frontend developers who possess a deep knowledge of the openEHR specifications
                                 </div>
                                 <div className="blocks__bottom">
-                                    Forms built for multiple openEHR compositions from different templates
+                                    Forms built for multiple openEHR compositions from different templates
                                     <hr/>
-                                    Various purposes visual components libraries from third party developers
+                                    Visual components libraries from third party developers used for various purposes
                                 </div>
                             </div>
                         </div>
@@ -115,25 +115,25 @@ class App extends React.Component {
                                 <div className="blocks-arrows__arrow">
                                     1
                                 </div>
-                                Start by creating a form using your openEHR template(s)
+                                Start by creating a new form using your openEHR template(s)
                             </div>
                             <div className="blocks-arrows__item">
                                 <div className="blocks-arrows__arrow">
                                     2
                                 </div>
-                                Customize it with any logic you need to meet UX requirements
+                                Customize it with any logic you need to meet the UX requirements
                             </div>
                             <div className="blocks-arrows__item">
                                 <div className="blocks-arrows__arrow">
                                     3
                                 </div>
-                                Swiftly integrate form into your end user application
+                                Swiftly integrate the new form into your end user application
                             </div>
                             <div className="blocks-arrows__item">
                                 <div className="blocks-arrows__arrow">
                                     4
                                 </div>
-                                Save Compositions into your CDR
+                                Save your Compositions into your CDR
                             </div>
                         </div>
                     </div>
@@ -145,22 +145,18 @@ class App extends React.Component {
                         <div className="columns">
                             <div className="columns__item">
                                 <ul className="list-markered">
-                                    <li className="list-markered__item">Simple form building process with maximum
-                                        reusability and
-                                        versatility in the process, that is possible without deep knowledge of openEHR
-                                        specification
+                                    <li className="list-markered__item">A simple form building approach with maximum reusability and versatility, not requiring any thorough knowledge of the openEHR specifications
                                     </li>
                                     <li className="list-markered__item">WYSIWYG UI building tool</li>
-                                    <li className="list-markered__item">Flexible components loosely coupled with EHR
-                                        template
+                                    <li className="list-markered__item">Flexible components loosely coupled with the EHR template
                                     </li>
                                 </ul>
                             </div>
                             <div className="columns__item">
                                 <ul className="list-markered">
-                                    <li className="list-markered__item">Rich component library with enough components to build most complicated forms
+                                    <li className="list-markered__item">Rich component library with sufficient components to build most advanced forms
                                     </li>
-                                    <li className="list-markered__item">Most complicated components can be used - smart user assistant, 3D elements, charts
+                                    <li className="list-markered__item">Most complicated components can be used, e.g. smart user assistant, 3D elements, charts, etc.
                                     </li>
                                 </ul>
                             </div>
@@ -188,7 +184,7 @@ class App extends React.Component {
                                 <div className="columns-3__img columns-3__img_3"/>
                                 <div className="columns-3__header">~30 000</div>
                                 <div className="columns-3__text">
-                                    Clinicians and medical specialists are using these forms every day
+                                    Clinicians and medical specialists are using our forms every day
                                 </div>
                             </div>
                         </div>

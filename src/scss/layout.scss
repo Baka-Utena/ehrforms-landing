@@ -21,7 +21,8 @@
 .section1 {
 	background-color: $primary;
 	background-image: url("../images/background_pattern.png");
-	height: calc(100vh - #{$base-gutter * 10});
+	height: calc(90vh - #{$base-gutter * 10});
+	max-height: 800px;
 	overflow: hidden;
 	padding: 0;
 	position: relative;
@@ -51,7 +52,7 @@
 
 	&__container {
 		align-items: flex-start;
-		background: url("../images/infogr.png") no-repeat right center;
+		background: url("../images/infogr_2.png") no-repeat right center;
 		display: flex;
 		flex-direction: column;
 		height: 100%;

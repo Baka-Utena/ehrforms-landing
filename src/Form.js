@@ -108,9 +108,9 @@ class Form extends Component {
             <>
                 <form name="contactform" className={classNames("form", this.props.classes)}
                       onSubmit={this.contactSubmit.bind(this)}>
-                    <h3 className="form__header">Have a question about EHR Forms?</h3>
+                    <h3 className="form__header">Do you have a question about EHR Forms?</h3>
                     <div className="form__caption">
-                        Ask it here and we will get back to you as soon as we can
+                        Please let us know here and we will get back to you very quickly
                     </div>
                     <div className="form__row">
                         <div className="form__col form__col-2">
